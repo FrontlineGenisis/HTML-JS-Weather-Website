@@ -14,6 +14,8 @@ background-repeat: no-repeat;
 background-size: cover;
 }  
 #banner {
+	-webkit-animation: swing-in-top-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+	        animation: swing-in-top-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 background: rgb(139,124,124);
 background: linear-gradient(90deg, rgba(139,124,124,1) 0%, rgba(117,10,10,1) 35%, rgba(179,14,14,1) 72%, rgba(255,0,0,1) 100%);
 text-align: center;

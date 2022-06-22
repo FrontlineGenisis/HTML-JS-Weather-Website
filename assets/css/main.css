@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
+
 :root {
 --bg-color: #000;
 }
@@ -11,3 +13,30 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }  
+#banner {
+background: rgb(139,124,124);
+background: linear-gradient(90deg, rgba(139,124,124,1) 0%, rgba(117,10,10,1) 35%, rgba(179,14,14,1) 72%, rgba(255,0,0,1) 100%);
+text-align: center;
+height: 7%;
+width: 100%;
+margin: 0;
+position: fixed;
+top: 0; right: 0; bottom: 0; left: 0;
+overflow: hidden;
+}
+#banner p {
+color: #fff;
+font-family: 'PT Sans Caption', sans-serif;
+}
+.fa-xmark {
+color: #fff;
+text-align: right;
+display: inline;
+position: absolute;
+right: 0; bottom: 0; left: 1;
+padding-right: 10px;
+font-size: 20px;
+vertical-align: middle;
+top: 50%;
+transform: translateY(-50%);
+}

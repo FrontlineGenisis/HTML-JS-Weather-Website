@@ -29,10 +29,21 @@ github.com/frontlinegen
     <link rel="icon" href="/assets/img/favicon/favicon.png" type="image/png">
     <link rel="icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
     <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <meta name="robots" content="noindex,nofollow">
 </head>
 
 <body>
-    <script src="/assets/js/login.js"></script>
+<div id="banner"><p>Currently in Progress.</p><button onclick="HideBanner()"><i class="fa-solid fa-xmark"></i></button></div>
+<script>
+   function HideBanner() {
+      var v = document.getElementById("banner");
+      if (v.style.display === "none") {
+         v.style.display = "block";
+      } else {
+         v.style.display = "none";
+      }
+   }
+</script>
 </body>
 </html>

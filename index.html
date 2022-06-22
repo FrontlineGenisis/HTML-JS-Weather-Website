@@ -1,0 +1,38 @@
+<?
+$count_my_page = ("hitcounter.flow5");
+$hits = file($count_my_page);
+$hits[0] ++;
+$fp = fopen($count_my_page , "w");
+fputs($fp , "$hits[0]");
+fclose($fp);
+$sno=$hits[0];
+?>
+<!--
+ ________ ________     
+|\  _____|\   ____\    
+\ \  \__/\ \  \___|    
+ \ \   __\\ \  \  ___  
+  \ \  \_| \ \  \|\  \ 
+   \ \__\   \ \_______\
+    \|__|    \|_______|
+
+github.com/frontlinegen
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Weather</title>
+    <link rel="icon" href="/assets/img/favicon/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="/assets/img/favicon/favicon.png" type="image/png">
+    <link rel="icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css" />
+    <meta name="robots" content="noindex,nofollow">
+</head>
+
+<body>
+    <script src="/assets/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+:root {
+--bg-color: #000;
+}
+
+body {
+background-color: var(--bg-color);
+/* filter: blur(8px);
+-webkit-filter: blur(8px); */
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}  
